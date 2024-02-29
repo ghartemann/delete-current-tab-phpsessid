@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Delete Cookie",
+    "description": "Pour supprimer le cookie de ses morts",
+    "version": "1.0",
+    "action": {
+      "default_popup": "delete.html",
+      "default_icon": "delete-empty.png"
+    },
+    "host_permissions": [
+      "https://*/*"
+    ],
+    "permissions": [
+      "cookies",
+      "activeTab"
+    ]
+  }
