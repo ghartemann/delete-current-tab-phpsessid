@@ -1,11 +1,17 @@
 {
     "manifest_version": 3,
-    "name": "Delete Cookie",
+    "name": "PHPSESSID cookie deleter",
     "description": "Pour supprimer le cookie de ses morts",
-    "version": "1.0",
+    "version": "1.2",
     "action": {
       "default_popup": "delete.html",
-      "default_icon": "delete-empty.png"
+      "default_icon": "vin.png"
+    },
+    "icons": {
+      "16": "vin.png",
+      "32": "vin.png",
+      "48": "vin.png",
+      "128": "vin.png"
     },
     "host_permissions": [
       "https://*/*"
